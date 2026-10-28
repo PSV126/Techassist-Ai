@@ -1,0 +1,266 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@demo.com",
+      "pass": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+      "role": "admin",
+      "dept": "Administration",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Priya N.",
+      "email": "agent@demo.com",
+      "pass": "f44d1ac9bf0c69b083380b86dbdf3b73797150e3cca4820ac399f7917e607647",
+      "role": "agent",
+      "dept": "Network Support",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "Arjun K.",
+      "email": "arjun@demo.com",
+      "pass": "f44d1ac9bf0c69b083380b86dbdf3b73797150e3cca4820ac399f7917e607647",
+      "role": "agent",
+      "dept": "Software Support",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "Meera S.",
+      "email": "meera@demo.com",
+      "pass": "f44d1ac9bf0c69b083380b86dbdf3b73797150e3cca4820ac399f7917e607647",
+      "role": "agent",
+      "dept": "Hardware Support",
+      "active": true
+    },
+    {
+      "id": 5,
+      "name": "Alex Johnson",
+      "email": "user@demo.com",
+      "pass": "e606e38b0d8c19b24cf0ee3808183162ea7cd63ff7912dbb22b5e803286b4446",
+      "role": "user",
+      "dept": "",
+      "active": true
+    }
+  ],
+  "tickets": [
+    {
+      "id": "TKT-1001",
+      "title": "Wi-Fi not connecting",
+      "description": "Wi-Fi not connecting. This has been happening since this morning and is affecting my work.",
+      "category": "Network",
+      "priority": "High",
+      "status": "In Progress",
+      "agentId": 2,
+      "userId": 5,
+      "sentiment": "Neutral",
+      "created": "2026-10-27T16:52:47.745Z",
+      "updated": "2026-10-27T16:52:47.745Z",
+      "comments": [
+        {
+          "by": "Alex Johnson",
+          "role": "user",
+          "text": "Please help, still not resolved.",
+          "internal": false,
+          "at": "2026-10-27T16:52:47.745Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1002",
+      "title": "Unable to access college portal",
+      "description": "Unable to access college portal. This has been happening since this morning and is affecting my work.",
+      "category": "Software",
+      "priority": "Critical",
+      "status": "Escalated",
+      "agentId": 3,
+      "userId": 5,
+      "sentiment": "Concerned",
+      "created": "2026-10-27T16:52:47.745Z",
+      "updated": "2026-10-27T16:52:47.745Z",
+      "comments": [
+        {
+          "by": "Alex Johnson",
+          "role": "user",
+          "text": "Please help, still not resolved.",
+          "internal": false,
+          "at": "2026-10-27T16:52:47.745Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1003",
+      "title": "Printer not working",
+      "description": "Printer not working. This has been happening since this morning and is affecting my work.",
+      "category": "Printing",
+      "priority": "Low",
+      "status": "Assigned",
+      "agentId": 4,
+      "userId": 5,
+      "sentiment": "Neutral",
+      "created": "2026-10-27T16:52:47.745Z",
+      "updated": "2026-10-27T16:52:47.745Z",
+      "comments": [
+        {
+          "by": "Alex Johnson",
+          "role": "user",
+          "text": "Please help, still not resolved.",
+          "internal": false,
+          "at": "2026-10-27T16:52:47.745Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1004",
+      "title": "Password reset required",
+      "description": "Password reset required. This has been happening since this morning and is affecting my work.",
+      "category": "Account & Login",
+      "priority": "Medium",
+      "status": "Resolved",
+      "agentId": 2,
+      "userId": 5,
+      "sentiment": "Concerned",
+      "created": "2026-10-27T16:52:47.745Z",
+      "updated": "2026-10-27T16:52:47.745Z",
+      "comments": [
+        {
+          "by": "Alex Johnson",
+          "role": "user",
+          "text": "Please help, still not resolved.",
+          "internal": false,
+          "at": "2026-10-27T16:52:47.745Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1005",
+      "title": "Laptop overheating",
+      "description": "Laptop overheating. This has been happening since this morning and is affecting my work.",
+      "category": "Hardware",
+      "priority": "High",
+      "status": "Waiting for User",
+      "agentId": 4,
+      "userId": 5,
+      "sentiment": "Neutral",
+      "created": "2026-10-27T16:52:47.745Z",
+      "updated": "2026-10-27T16:52:47.745Z",
+      "comments": [
+        {
+          "by": "Alex Johnson",
+          "role": "user",
+          "text": "Please help, still not resolved.",
+          "internal": false,
+          "at": "2026-10-27T16:52:47.745Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1006",
+      "title": "Email login problem",
+      "description": "Email login problem. This has been happening since this morning and is affecting my work.",
+      "category": "Email",
+      "priority": "Medium",
+      "status": "New",
+      "agentId": 3,
+      "userId": 5,
+      "sentiment": "Concerned",
+      "created": "2026-10-27T16:52:47.745Z",
+      "updated": "2026-10-27T16:52:47.745Z",
+      "comments": [
+        {
+          "by": "Alex Johnson",
+          "role": "user",
+          "text": "Please help, still not resolved.",
+          "internal": false,
+          "at": "2026-10-27T16:52:47.745Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1007",
+      "title": "Software installation error",
+      "description": "Software installation error. This has been happening since this morning and is affecting my work.",
+      "category": "Software",
+      "priority": "Medium",
+      "status": "Closed",
+      "agentId": 3,
+      "userId": 5,
+      "sentiment": "Neutral",
+      "created": "2026-10-27T16:52:47.745Z",
+      "updated": "2026-10-27T16:52:47.745Z",
+      "comments": [
+        {
+          "by": "Alex Johnson",
+          "role": "user",
+          "text": "Please help, still not resolved.",
+          "internal": false,
+          "at": "2026-10-27T16:52:47.745Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1008",
+      "title": "Network speed issue",
+      "description": "Network speed issue. This has been happening since this morning and is affecting my work.",
+      "category": "Network",
+      "priority": "Low",
+      "status": "In Progress",
+      "agentId": 2,
+      "userId": 5,
+      "sentiment": "Concerned",
+      "created": "2026-10-27T16:52:47.745Z",
+      "updated": "2026-10-27T16:52:47.745Z",
+      "comments": [
+        {
+          "by": "Alex Johnson",
+          "role": "user",
+          "text": "Please help, still not resolved.",
+          "internal": false,
+          "at": "2026-10-27T16:52:47.745Z"
+        }
+      ]
+    },
+    {
+      "id": "TKT-1009",
+      "title": "wifi",
+      "description": "wifi not connecting from morning",
+      "category": "Network",
+      "priority": "High",
+      "status": "Assigned",
+      "agentId": 2,
+      "userId": 5,
+      "sentiment": "Neutral",
+      "ai": {
+        "category": "Network",
+        "department": "Network Support",
+        "priority": "High",
+        "sentiment": "Neutral",
+        "possibleCause": "Router/DHCP problem or weak signal",
+        "steps": [
+          "Forget and rejoin the Wi-Fi network",
+          "Restart the router/modem",
+          "Run ipconfig /renew and ping 8.8.8.8"
+        ],
+        "eta": "2 hours",
+        "summary": "wifi wifi not connecting from morning"
+      },
+      "duplicateOf": "TKT-1001",
+      "created": "2026-10-27T16:54:43.608Z",
+      "updated": "2026-10-27T16:54:43.608Z",
+      "comments": [
+        {
+          "by": "TechAssist AI",
+          "role": "ai",
+          "text": "Analyzed: Network, High, sentiment Neutral. Routed to Network Support. Try: Forget and rejoin the Wi-Fi network; Restart the router/modem; Run ipconfig /renew and ping 8.8.8.8.",
+          "internal": false,
+          "at": "2026-10-27T16:54:43.608Z"
+        }
+      ]
+    }
+  ],
+  "nextTicket": 1010,
+  "nextUser": 6
+}
